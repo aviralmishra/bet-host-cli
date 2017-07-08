@@ -21,7 +21,6 @@ const inputs: Array<string> = [];
 const bets: Array<IBet> = [];
 let betId = 1;
 
-
 rl.setPrompt('tc_tote_bet_host> ');
 rl.prompt();
 

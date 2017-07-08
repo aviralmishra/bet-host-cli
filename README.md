@@ -11,20 +11,20 @@ The project is tested with Node 4.4.x onwards.
 - Install [VS Code](https://code.visualstudio.com/)
 
 # Getting started
-- Clone the repository
+- Clone the repository:
 ```
 git clone https://github.com/aviralmishra/bet-host-cli.git
 ```
-- Install dependencies
+- Install dependencies:
 ```
 cd bet-host-cli
 npm install
 ```
-- Build and run the project
+- Build and run the project:
 ```
 npm run serve
 ```
-- Only build and lint the project
+- Only build and lint the project:
 ```
 npm run build
 ```
