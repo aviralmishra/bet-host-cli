@@ -1,0 +1,34 @@
+{
+  "name": "bet-host-cli",
+  "version": "0.1.0",
+  "description": "A simple betting host",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aviralmishra/bet-host-cli.git"
+  },
+  "author": "Aviral Mishra",
+  "license": "MIT",
+  "scripts": {
+    "build": "npm run build-ts-src && npm run tslint",
+    "serve": "npm run build && node dist/host.js",
+    "test": "npm run build-ts-test && mocha -- test/specs/**/*.js",
+    "build-ts-src": "tsc",
+    "build-ts-test": "tsc -p tsconfig.tests.json",
+    "tslint": "tslint -c tslint.json -p tsconfig.json"
+  },
+  "dependencies": {
+    "lodash": "4.17.4",
+    "readline": "1.3.0"
+  },
+  "devDependencies": {
+    "@types/async": "2.0.40",
+    "@types/chai": "4.0.1",
+    "@types/mocha": "2.2.41",
+    "@types/node": "7.0.12",
+    "@types/lodash": "4.14.68",
+    "chai": "4.0.1",
+    "mocha": "3.4.2",
+    "tslint": "5.0.0",
+    "typescript": "2.2.2"
+  }
+}
