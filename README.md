@@ -28,7 +28,7 @@ npm run serve
 ```
 npm run build
 ```
-- Run tests
+- Run tests:
 ```
 npm run test
 ```
