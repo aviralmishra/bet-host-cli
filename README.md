@@ -6,7 +6,7 @@ A command-line interface for Tote betting
 The project is tested with Node 4.4.x onwards.
 - Install [Node.js](https://nodejs.org/en/)
 
-# Optional Pre-reqs
+# Optional pre-reqs
 - Install [Mocha](https://www.npmjs.com/package/mocha)
 - Install [VS Code](https://code.visualstudio.com/)
 
@@ -35,7 +35,7 @@ npm run test
 # Dependencies
 Dependencies are managed through `package.json`.
 
-# Run-time Help
+# Run-time help
 - Once project is cloned and depdenencies are installed, run the following command to get the calculator started:
 ```
 npm run serve
